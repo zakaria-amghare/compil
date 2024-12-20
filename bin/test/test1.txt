@@ -1,0 +1,18 @@
+VAR_GLOBAL {
+    INTEGER A,B,C[10],D;
+FLOAT A,B,C[10],D;
+CHAR A,B,C[10],D;
+ }
+DECLARATION { 
+    INTEGER A,B,C[10],D;
+FLOAT A,B,C[10],D;
+    CHAR A,B,C[10],D;
+    CONST CHAR Aa="heloowmIllow";
+}
+INSTRACTION { 
+    IF (Aa==Bb){B=Aa+B;}
+    ELSE {B=Aa+B;}
+FOR(I =0 :2 :N){ I=I+1 ;}
+FOR(I =0 :2 :N){ I=(Aa+12+(14)) ;}
+FOR(I =0 :2 :N){ I="?" ;}
+}
