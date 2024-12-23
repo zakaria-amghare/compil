@@ -79,3 +79,4 @@ PVG: ';';
 
 /** Hidden Tokens **/
 WS: [ \t\r\n]+ -> skip;
+CommentLine: '%%' ~[\r\n]* -> skip;
